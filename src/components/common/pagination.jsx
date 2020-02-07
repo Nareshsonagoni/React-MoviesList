@@ -9,11 +9,6 @@ const Pagination = props => {
   if (pagesCount === 1) return null;
   const pages = _.range(1, pagesCount + 1);
 
-  //   isActive = page => {
-  //     let activeClass = "page-item";
-  //     if (props.pages.page === page) activeClass += " active";
-  //     return activeClass;
-  //   };
   return (
     <nav>
       <ul className="pagination">
@@ -25,7 +20,7 @@ const Pagination = props => {
             <a
               className="page-link"
               onClick={() => onPageChange(page)}
-              //   href=" "
+              href="/# "
             >
               {page}
             </a>
