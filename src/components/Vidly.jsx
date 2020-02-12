@@ -8,12 +8,8 @@ class Vidly extends Component {
   };
 
   render() {
-    const { movies } = this.state;
-    return (
-      <React.Fragment>
-        <Movies />
-      </React.Fragment>
-    );
+    // const { movies } = this.state;
+    return <React.Fragment>{/* <Movies /> */}</React.Fragment>;
   }
 }
 
